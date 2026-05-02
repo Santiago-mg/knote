@@ -27,8 +27,8 @@ spec:
     spec:
       containers:
         - name: knote
-          image: knote:2.0.0
-          imagePullPolicy: IfNotPresent
+          image: santigonz/knote:2.0.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
